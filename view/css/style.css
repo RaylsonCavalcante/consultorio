@@ -1,0 +1,535 @@
+												/* TELA LOGIN */
+
+#bodyLogin{
+	background-color: #C1CDC1;/*Cor da Página*/
+}
+
+#fieldsetLogin{
+	width: 350px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	background: #C1CDC1; 
+	border: none;  
+	border-radius: 5px; 
+	-webkit-box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77); 
+	-moz-box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77); 
+	box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77);
+}
+#LOGIN{
+	background: black; 
+	color: white; 
+	font-family: sans-serif; 
+	margin-top: 30px;  
+	border-radius: 5px;
+}
+#login{
+	margin-top: 20px; 
+	width: 80%; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#pass{
+	width: 80%;  
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+
+											/*TELA CADASTRO MEDICO*/
+
+#bodyRegister{
+	background-color: #C1CDC1; /*Cor da Página*/
+}
+#fieldsetRegisterMedico{
+	width: 350px;
+	height: relative;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	background: #C1CDC1; 
+	border: none; 
+	border-radius: 5px; 
+	-webkit-box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77); 
+	-moz-box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77); 
+	box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77);
+}
+#CADASTRO{
+	background: black; 
+	color: white; 
+	font-family: sans-serif; 
+	margin-top: 30px; 
+	border-radius: 3px;
+}
+#nameMedico{
+	width: 80%;  
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#loginMedico{
+	width: 80%;  
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#passMedico{
+	width: 80%;  
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;	
+}
+															/*TELA AGENDA*/
+#MEDICO{
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center;
+	background: black; 
+	color: white; 
+	font-family: sans-serif; 
+	border-radius: 5px; 
+	border: none; 
+	outline: none;
+
+}
+#bodyAgenda{
+	background-color: #C1CDC1;
+
+}
+#tableButton{
+	max-width: 100%;
+}
+#tdAgenda{
+	width: 30%;
+}
+#tdAtendimentos{
+	width: 30%;
+}
+#tdAgendar{
+	width: 30%;
+}
+#btnAgenda{ 
+	background-color: white; 
+	color: black;
+	width: 150px; 
+	height: 30px; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	cursor: pointer;
+}
+#btnAgenda:hover{ 
+	background-color: black; 
+	color: white;
+}
+#btnAtendimentos{ 
+	background-color: white; 
+	color: black;
+	width: 200px; 
+	height: 30px; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	cursor: pointer;
+}
+#btnAtendimentos:hover{ 
+	background-color: black; 
+	color: white;
+}
+#btnAgendar{ 
+	background-color: white; 
+	color: black;
+	width: 150px; 
+	height: 30px; 
+	font-family: sans-serif; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	cursor: pointer;
+}
+#btnAgendar:hover{ 
+	background-color: black; 
+	color: white;
+}
+#fieldsetAgenda{
+	height: 500px; 
+	width: auto; 
+	border: none;
+}
+#divAgenda{
+	height: 400px; 
+	width: auto; 
+	margin-top: 20px; 
+	overflow: auto; 
+	border: none;
+}
+#PACIENTESAGENDADOS{
+	background: white; 
+	color: green; 
+	font-family: sans-serif; 
+	border-radius: 5px; 
+	border: none; 
+	outline: none;
+}
+#tableListaAgenda{
+	width: 80%; 
+	border-style: none; 
+	border: 1px;
+}
+#trInfoLista{
+	color: black; 
+	font-family: 
+	sans-serif;
+	background: #43CD80;
+}
+#tdPacientesAgendas{width: 30%; border-radius: 3px; border: none; outline: none;}
+#tdDescricaoAgendas{width: 30%; border-radius: 3px; border: none; outline: none;}
+#tdDiaAgendas{width: 15%; border-radius: 3px; border: none; outline: none;}
+#tdHoraAgendas{width: 15%; border-radius: 3px; border: none; outline: none;}
+#tdContatoAgendas{width: 15%; border-radius: 3px; border: none; outline: none;}
+#tdAlterarAgendas{width: 5%; border-radius: 3px; border: none; outline: none;}
+#tdExcluirAgendas{width: 5%; border-radius: 3px; border: none; outline: none;}
+#tdATDAgendas{width: 5%; border-radius: 3px; border: none; outline: none;}
+
+#trInfoListagem{
+	background: #CAE1FF;
+}
+#tdRed{
+	font-family:sans-serif; 
+	background:red; 
+	color: white; 
+	border: 3px; 
+	border-radius: 3px;
+}
+#tdContactRed{
+	font-family:sans-serif; 
+	background:red; 
+	color: white; 
+	border: 3px; 
+	border-radius: 3px; 
+	font-size: 12px;
+}
+#tdGreen{
+	font-family:sans-serif; 
+	background:green; 
+	color: white; 
+	border: 3px; 
+	border-radius: 3px;
+}
+#tdContactGreen{
+	font-family:sans-serif; 
+	background:green; 
+	color: white; 
+	border: 3px; 
+	border-radius: 3px; 
+	font-size: 12px;
+}
+#tdWhite{
+	font-family:sans-serif; 
+	background: white;
+	color: black;
+	border: 3px; 
+	border-radius: 3px;
+}
+#tdContactWhite{
+	font-family:sans-serif; 
+	background: white;
+	color: black;
+	border: 3px; 
+	border-radius: 3px;
+	font-size: 12px;		
+}
+#tdAlterarbtn{
+	background: #C1CDC1; 
+	border:none;
+}
+#tdExcluirbtn{
+	background: #C1CDC1; 
+	border:none;
+}
+#tdOkbtn{
+	background: #C1CDC1; 
+	border:none;
+}
+#btnAlterar{
+	background: blue; 
+	color: white; 
+	font-family: sans-serif; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	height:30px; 
+	cursor: pointer;
+}
+#btnExcluir{
+	background: red; 
+	color: white; 
+	font-family: sans-serif; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	height:30px; 
+	cursor: pointer;
+}
+#btnOk{
+	background: green; 
+	color: white; 
+	font-family: sans-serif; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	height:30px; 
+	cursor: pointer;
+}
+#NenhumAgendado{
+	color : red; 
+	font-family : sans-serif;
+}
+#divAtendimentos{
+	height: 400px; 
+	width: auto; 
+	margin-top: 20px; 
+	overflow: scroll; 
+	overflow-x: visible; 
+	border: none; 
+	display: none;
+}
+#PACIENTESATENDIDOS{
+	background: white; 
+	color: green; 
+	font-family: sans-serif; 
+	border-radius: 5px; 
+	border: none; 
+	outline: none;
+}
+#tableListaAtendidos{
+	width: 80%; 
+	border-style: none;
+}
+#tdPacientesAtendidos{width: 26%; border-radius: 3px; border: none; outline: none;}
+#tdDescricaoAtendidos{width: 26%; border-radius: 3px; border: none; outline: none;}
+#tdDiaAtendidos{width: 15%; border-radius: 3px; border: none; outline: none;}
+#tdHoraAtendidos{width: 15%; border-radius: 3px; border: none; outline: none;}
+#tdContatoAtendidos{width: 15%; border-radius: 3px; border: none; outline: none;}
+#tdExcluirAtendidos{width: 5%; border-radius: 3px; border: none; outline: none;}
+
+#NenhumAtendido{
+	color: red; 
+	font-family: sans-serif; 
+	font-size: 20px;
+}
+#btnSair{
+	background: red; 
+	color: white; 
+	width: 90px; 
+	height: 30px; 
+	border-radius: 3px; 
+	margin-right: 1.4%; 
+	border: none; 
+	outline: none; 
+	cursor: pointer;
+}
+															/*TELA EDIT*/
+#bodyEdit{
+	background-color: #C1CDC1;
+}
+#fieldsetEditPaciente{
+	width: 300px; 
+	height: relative;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);  
+	background: #C1CDC1; 
+	border-radius: 5px; 
+	border: none; 
+	outline: none;
+	-webkit-box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77); 
+	-moz-box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77); 
+	box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77);
+}
+#EDITAR{
+	background: black; 
+	color: white; 
+	font-family: sans-serif; 
+	margin-top: 30px; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none;
+}
+#namePacienteEdit{
+	width: 80%; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#descricaoPacienteEdit{
+	width: 80%; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#datePacienteEdit{
+	width: 80%; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#timePacienteEdit{
+	width: 80%; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#contactPacienteEdit{
+	width: 80%;
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#btnSalvar{
+	background: orange; 
+	color: white; 
+	width: 90px; 
+	height: 30px; 
+	font-family: sans-serif; 
+	border-radius: 3px; 
+	border: none;  
+	outline: none; 
+	cursor: pointer;
+}
+#btnVoltarEditPaciente{
+	background: blue; 
+	color: white; 
+	width: 90px; 
+	height: 30px; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	cursor: pointer;
+}
+															/*TELA AGENDAR*/
+#bodyRegisterPaciente{
+	background-color: #C1CDC1;
+}
+#fieldsetRegisterPaciente{
+	width: 300px; 
+	height: relative;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	background: #C1CDC1; 
+	border-radius: 5px; 
+	border: none; 
+	outline: none;
+	-webkit-box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77); 
+	-moz-box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77); 
+	box-shadow: 6px 6px 5px rgba(50, 50, 50, 0.77);
+}
+#AGENDAR{
+	background: black; 
+	color: white; 
+	font-family: sans-serif; 
+	margin-top: 30px; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none;
+}
+#nameRegisterPaciente{
+	width: 80%;
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#descricaoRegisterPaciente{
+	width: 80%;
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#dateRegisterPaciente{
+	width: 80%; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#timeRegisterPaciente{
+	width: 80%; 
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+#contactRegisterPaciente{
+	width: 80%;  
+	border-radius: 3px; 
+	border: none; 
+	outline: none; 
+	text-indent: 2px;
+}
+														/*TELA LOGIN MOBILE 320px*/
+@media (max-width: 320px) {
+	#bodyLogin{
+		background: #40E0D0;
+	}
+	#fieldsetLogin{
+		width: 86%;
+		margin-top: 26%;
+	}
+	#bodyAgenda{
+		width: 86%;
+	}
+	#MEDICO{
+		position: static;
+		width: 400px;
+		margin-left: 37px;
+	}
+	#btnAgenda{
+		margin-left: 4px;
+	}
+	#btnAtendimentos{
+		width: 150px;
+	}
+	#fieldsetAgenda{
+		margin-left: -9px;
+	}
+	#PACIENTESATENDIDOS{
+		width: 469px;
+	}
+	
+	#btnSair{
+		margin-left: 198px;
+	}
+	#bodyRegisterPaciente{
+		background: #40E0D0;
+	}
+	#fieldsetRegisterPaciente{
+		width: 86%;
+		margin-top: 11%;
+	}
+	#bodyEdit{
+		background: #40E0D0;
+	}
+	#fieldsetEditPaciente{
+		width: 86%;
+		margin-top: 11%;
+	}
+}
+														/*TELA LOGIN MOBILE 360px*/
