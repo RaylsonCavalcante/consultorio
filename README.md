@@ -26,7 +26,7 @@ Importe o arquivo "consultorio.sql" no seu banco de dados.<br>
 <h2>Linguagens e Ferramentas:</h2>
 * HTML<br>
 * CSS<br>
-* BOOTSTRAP
+* BOOTSTRAP<br>
 * JAVASCRIPT<br>
 * JQUERY<br>
 * PHP<br>
